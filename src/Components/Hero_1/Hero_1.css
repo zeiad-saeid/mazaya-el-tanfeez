@@ -1,0 +1,76 @@
+/* القسم الرئيسى */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/* التحكم فى صور الخلفية */
+.hero-section .carousel-item img {
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+  filter: brightness(0.6);
+  background-attachment: fixed;
+}
+
+/* محتوى صورة الخلفية */
+.hero-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+/* العنوان الكبير فى الصفحة */
+.hero-caption h1 {
+  font-size: 3rem;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* لون span */
+.color {
+  color: #13233C;
+}
+
+/* الزر */
+.btn-1 {
+  color: white;
+  background-color: #13233C;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+/* أيقونات الأسهم */
+.custom-preve-icon,
+.custom-nexte-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.custom-preve-icon::before,
+.custom-nexte-icon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  font-size: 30px;
+}
+
+.custom-preve-icon::before {
+  content: "\f104"; /* FontAwesome code for left arrow */
+}
+
+.custom-nexte-icon::before {
+  content: "\f105"; /* FontAwesome code for right arrow */
+}

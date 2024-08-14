@@ -1,0 +1,25 @@
+
+
+.logo {
+  width: 50%; 
+  height: 50%; /* الحفاظ على نسبة العرض إلى الارتفاع */
+  margin: 0; /* إزالة أي margin إضافي */
+  padding: 0; /* إزالة أي padding إضافي */
+}
+
+.col-custom {
+  padding: 0; /* إزالة padding من الأعمدة */
+  margin: 0; /* إزالة أي margin إضافي */
+  display: flex;
+  justify-content: center; /* مركزة الصورة داخل العمود */
+}
+/* ازالة المسافات الخفية من الاعمدة  */
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* ازالة المسافات الخفية من الصفوف  */
+.col {
+  margin: 0 !important;
+  padding: 0 !important;
+}

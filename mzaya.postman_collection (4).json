@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "9277ee12-0c2c-4753-a76f-995a6975357b",
+		"name": "mzaya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5681773",
+		"_collection_link": "https://cloudy-water-4645.postman.co/workspace/Team-Workspace~b26ee142-fa96-4e63-8d51-ede3406d0da3/collection/5681773-9277ee12-0c2c-4753-a76f-995a6975357b?action=share&source=collection_link&creator=5681773"
+	},
+	"item": [
+		{
+			"name": "settings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/settings",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"settings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "about_us",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/about-us",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"about-us"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/teams",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Services",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/services",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"services"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Partners",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/partners",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"partners"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GalleryGroup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/gallery-group",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"gallery-group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/projects",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Questions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/questions",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Project Departments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{$Url}}/project-departments",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"project-departments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Contactus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone\":\"01159101659\",\r\n    \"email\":\"sddsa@sdadasd.com\",\r\n    \"message\":\"test test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{$Url}}/postContactus",
+					"host": [
+						"{{$Url}}"
+					],
+					"path": [
+						"postContactus"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "$Url",
+			"value": "https://gayekapp.com/mzaya/api",
+			"type": "string"
+		}
+	]
+}

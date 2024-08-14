@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "company": "公司",
+    "company_name": "梅扎尔执行",
+    "subtitle": "与我们一起开启实现梦想的道路",
+    "about_us": "关于我们"
+  },
+  "navbar": {
+    "contact_us": "联系我们",
+    "company_projects": "公司项目",
+    "services": "服务",
+    "gallery": "画廊",
+    "about_us": "关于我们",
+    "home": "首页"
+  },
+  "services": {
+    "title": "服务",
+    "description": "一些快速示例文本，用于构建卡片标题并构成大部分卡片内容。",
+    "import_export": "进出口",
+    "renovations": "翻新",
+    "super_deluxe_finish": "超豪华装修",
+    "turnkey": "交钥匙工程",
+    "real_estate_construction": "房地产建筑",
+    "finishes": "装饰",
+    "learn_more": "了解更多"
+  },
+  "team": {
+    "title": "我们的团队",
+    "description": "认识我们的专注团队成员。",
+    "member1": {
+      "name": "",
+      "title": ""
+    },
+    "member2": {
+      "name": "",
+      "title": ""
+    },
+    "member3": {
+      "name": "",
+      "title": ""
+    },
+    "member4": {
+      "name": "",
+      "title": ""
+    },
+    "member5": {
+      "name": "",
+      "title": ""
+    },
+    "member6": {
+      "name": "",
+      "title": ""
+    },
+    "member7": {
+      "name": "",
+      "title": ""
+    },
+    "member8": {
+      "name": "",
+      "title": ""
+    }
+  },
+  "serves": {
+    "title": "图片画廊",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt libero voluptate."
+  },
+  "numbers": {
+    "employees": "员工人数",
+    "completed_projects": "完成项目",
+    "satisfied_clients": "满意客户",
+    "achievements": "成就"
+  },
+  "recent_posts": {
+    "title": "最新文章",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt libero voluptate.",
+    "learn_more": "了解更多"
+  },
+  "partner": {
+    "title": "我们的合作伙伴",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt libero voluptate."
+  },
+  "footer_1": {
+    "title_1": "工作时间",
+    "title_2": "电话号码",
+    "title_3": "地址"
+  },
+  "footer": {
+    "quick_links": "快速链接",
+    "home": "首页",
+    "terms_conditions": "条款和条件",
+    "privacy_policy": "隐私政策",
+    "popular_news": "热门新闻",
+    "latest_news": "最新新闻",
+    "about_us": "关于我们"
+  },
+  "contact": {
+    "contact_us": "联系我们",
+    "visit_branch": "访问我们的分支机构：",
+    "contact_form": "通过以下表格与我们联系：",
+    "name": "姓名：",
+    "email": "邮箱：",
+    "phone": "电话：",
+    "your_message": "您的留言",
+    "send": "发送"
+  },
+  "moreserves": {
+    "learn_more": "了解更多关于我们的服务",
+    "super_deluxe": "超豪华装修",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas officia impedit et illum repellat sint, dolorum perspiciatis, velit minus ratione porro ipsum sunt quos consectetur perferendis provident eius reiciendis?"
+  },
+  "floatingFormButton": {
+    "send_message": "发信息",
+    "contact_form": "联系表",
+    "name": "姓名",
+    "email": "电子邮件",
+    "message": "信息",
+    "send": "发送",
+    "close": "关闭"
+  },
+  "about": {
+    "who_we_are": "我们是谁",
+    "mission": "使命",
+    "vision": "第一个目的地"
+  },
+  "button_states": {
+    "read_more": "阅读更多",
+    "contact_us": "联系我们",
+    "call_us": "致电我们"
+  }
+}

@@ -1,0 +1,138 @@
+/* CSS for the Team component */
+
+.services {
+  text-align: center; /* Center align the services text */
+  padding: 0px 0; /* Reduce vertical padding */
+}
+
+.services-title {
+  font-size: 24px; /* Font size for services title */
+  font-weight: bold; /* Make the title bold */
+  margin-bottom: 10px; /* Bottom margin for the title */
+}
+
+.services-description {
+  font-size: 16px; /* Font size for services description */
+  color: #666; /* Text color for description */
+  margin-bottom: 10px; /* Bottom margin for description */
+}
+
+.carousel-container {
+  padding: -50px 0 0 0; /* Reduce vertical padding */
+  position: relative; /* Positioning relative for child elements */
+  margin-top: -1vh; /* Negative top margin for carousel */
+  margin-bottom: 10vh; /* Bottom margin for carousel */
+}
+
+.carousel-control-prev-icon.custom-prev-icon,
+.carousel-control-next-icon.custom-next-icon {
+  background-color: #13233C; /* Background color for control icons */
+  height: 3rem; /* Height of control icons */
+  width: 3rem; /* Width of control icons */
+  gap: 0; /* Remove gap between elements */
+  position: absolute; /* Positioning absolute for control icons */
+}
+
+.carousel-control-prev {
+  left: 2rem; /* Left position for prev button */
+  top: 50%; /* Top position for prev button */
+  transform: translateY(-50%); /* Center the button vertically */
+  z-index: 1; /* Ensure buttons are above the cards */
+}
+
+.services .images {
+  height: auto; /* Auto height for images */
+  margin: 0 auto; /* Center align the images */
+  max-height: 25px; /* Max height for images */
+}
+
+.carousel-control-next {
+  right: 2rem; /* Right position for next button */
+  top: 50%; /* Top position for next button */
+  transform: translateY(-50%); /* Center the button vertically */
+  z-index: 1; /* Ensure buttons are above the cards */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  font-size: 1.5rem; /* Font size for control icons */
+}
+
+.container-fluid {
+  display: flex; /* Flexbox display for container */
+  justify-content: center; /* Center align items */
+  align-items: center; /* Center align items vertically */
+}
+
+.card2 {
+  width: 18rem; /* Card width */
+  height: 31rem; /* Card height */
+  margin: 1rem; /* Card margin */
+  position: relative; /* Relative positioning for card */
+  overflow: hidden; /* Hide overflow content */
+  border-radius: 10px; /* Rounded corners for card */
+  z-index: 0; /* Ensure cards are below controls */
+}
+
+.card2::after {
+  content: ''; /* After element for bottom border */
+  display: block; /* Display block element */
+  width: 100%; /* Full width */
+  height: 5px; /* Height of bottom border */
+  background-color: #F5C139; /* Border color */
+  position: absolute; /* Positioning absolute */
+  top: 87%; /* Position from top */
+  left: 0; /* Position from left */
+}
+.card2 img {
+  width: 100%;
+  height: 435px; /* Fixed height for images */
+  object-fit: cover; /* Cover the card area without stretching */
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+
+.social-icons {
+  position: absolute; /* Positioning absolute for icons */
+  bottom: 70px; /* Position from bottom */
+  left: 50%; /* Center align */
+  right: 50%; /* Center align */
+  transform: translateX(-50%); /* Center align horizontally */
+  display: flex; /* Flexbox display for icons */
+  gap: 10px; /* Gap between icons */
+  opacity: 0; /* Initial opacity */
+  top: 72%; /* Position from top */
+  transition: opacity 0.3s, transform 0.3s; /* Transition for hover effects */
+  padding: 10px; /* Padding for icons */
+  border-radius: 10px; /* Rounded corners for icon container */
+  justify-content: center; /* Center align icons */
+  background-color: #13233C; /* Background color for icon container */
+}
+
+.social-icons i {
+  padding: 5px; /* Padding for icons */
+}
+
+.social-icons i:hover {
+  color: #FFC107; /* Hover color for icons */
+}
+
+.card2:hover .social-icons {
+  opacity: 5; /* Hover opacity for icons */
+  transform: translateY(-5); /* Hover position for icons */
+}
+
+.custom-prev-icon {
+  left: auto; /* Auto left position */
+  top: 50%; /* Center vertically */
+  margin-right: 210px; /* Right margin */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.custom-next-icon {
+  right: auto; /* Auto right position */
+  margin-left: 210px; /* Left margin */
+  top: 50%; /* Center vertically */
+  left: auto; /* Remove left position */
+  transform: translateY(-50%); /* Center vertically */
+}

@@ -1,0 +1,25 @@
+.scroll-to-top-button {
+  z-index: 1000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #F8BE2E;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    margin-bottom: 10px;
+    visibility: hidden; /* إخفاء الزر بشكل افتراضي */
+    transition: opacity 0.4s, visibility 0s linear 0.4s; /* تأخير ظهور الزر بعد التمرير */
+  }
+  
+  .scroll-to-top-button.show {
+    opacity: 1;
+    visibility: visible; /* إظهار الزر عند التمرير */
+    transition-delay: 0s; /* إلغاء التأخير عند الظهور */
+  }
+  

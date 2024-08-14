@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "company": "شرکت",
+    "company_name": "مزیار اجراء",
+    "subtitle": "آپ کے خواب کو پورا کرنے کا راستہ ہمارے ساتھ شروع ہوتا ہے",
+    "about_us": "ہمارے بارے میں"
+  },
+  "navbar": {
+    "contact_us": "ہم سے رابطہ کریں",
+    "company_projects": "شرکت کے منصوبے",
+    "services": "خدمات",
+    "gallery": "گیلری",
+    "about_us": "ہمارے بارے میں",
+    "home": "ہوم"
+  },
+  "services": {
+    "title": "خدمات",
+    "description": "کارڈ کی عنوانیت بنانے اور کارڈ کی مواد کی زیادہ تر تشکیل کرنے کے لئے کچھ تیز مثالی متن۔",
+    "import_export": "درآمد اور برآمد",
+    "renovations": "تجدید",
+    "super_deluxe_finish": "سپر ڈیلیکس فنشنگ",
+    "turnkey": "ٹرن کی",
+    "real_estate_construction": "ریئل اسٹیٹ تعمیرات",
+    "finishes": "مکمل کریں",
+    "learn_more": "مزید جانیں"
+  },
+  "team": {
+    "title": "ہماری ٹیم",
+    "description": "ہمارے مخلص ٹیم کے اراکین سے ملاقات کریں۔",
+    "member1": {
+      "name": "",
+      "title": ""
+    },
+    "member2": {
+      "name": "",
+      "title": ""
+    },
+    "member3": {
+      "name": "",
+      "title": ""
+    },
+    "member4": {
+      "name": "",
+      "title": ""
+    },
+    "member5": {
+      "name": "",
+      "title": ""
+    },
+    "member6": {
+      "name": " ",
+      "title": " "
+    },
+    "member7": {
+      "name": " ",
+      "title": "  "
+    },
+    "member8": {
+      "name": " ",
+      "title": " "
+    }
+  },
+  "serves": {
+    "title": "فوٹو گیلری",
+    "description": "لوریم اپسوم ڈالر بیٹھ آمیٹ، کونسیٹیٹیور ایڈیپسیسنگ ایلیٹ۔"
+  },
+  "numbers": {
+    "employees": "ملازمین",
+    "completed_projects": "مکمل منصوبے",
+    "satisfied_clients": "خوش مشتریاں",
+    "achievements": "کامیابیاں"
+  },
+  "recent_posts": {
+    "title": "تازہ ترین مضامین",
+    "description": "کارڈ کی عنوانیت بنانے اور کارڈ کی مواد کی زیادہ تر ترتیب دینے کے لئے کچھ تیز اسکرپٹس۔",
+    "learn_more": "مزید جانیں"
+  },
+  "partner": {
+    "title": "ہمارے شراکت دار",
+    "description": "لوریم اپسوم ڈالر بیٹھ آمیٹ، کونسیٹیٹیور ایڈیپسیسنگ ایلیٹ۔"
+  },
+  "footer_1": {
+    "title_1": "کام کا وقت",
+    "title_2": "فون نمبر",
+    "title_3": "پتہ"
+  },
+  "footer": {
+    "quick_links": "فوری لنکس",
+    "home": "ہوم",
+    "terms_conditions": "شرائط و ضوابط",
+    "privacy_policy": "رازداری کی پالیسی",
+    "popular_news": "مقبول خبریں",
+    "latest_news": "تازہ ترین خبریں",
+    "about_us": "ہمارے بارے میں"
+  },
+  "contact": {
+    "contact_us": "ہم سے رابطہ کریں",
+    "visit_branch": "شاخ پر ہماری زیارت کریں:",
+    "contact_form": "نیچے دیے گئے فارم کے ذریعے ہم سے رابطہ کریں:",
+    "name": "نام:",
+    "email": "ای میل:",
+    "phone": "فون:",
+    "your_message": "آپ کا پیغام",
+    "send": "بھیجیں"
+  },
+  "moreserves": {
+    "learn_more": "ہماری خدمات کے بارے میں مزید جانیں",
+    "super_deluxe": "سپر ڈیلیکس مکمل",
+    "description": "لوریم اپسوم ڈالر بیٹھ آمیٹ، کونسیٹیٹیور ایڈیپسیسنگ ایلیٹ۔"
+  },
+  "floatingFormButton": {
+    "send_message": "پیغام بھیجیں",
+    "contact_form": "رابطہ فارم",
+    "name": "نام",
+    "email": "ای میل",
+    "message": "پیغام",
+    "send": "بھیجیں",
+    "close": "بند کریں"
+  },
+  "about": {
+    "who_we_are": "ہم کون ہیں",
+    "mission": "مشن",
+    "vision": "اولین مقصد"
+  },
+  "button_states": {
+    "read_more": "مزید پڑھ",
+    "contact_us": "ہم سے رابطہ کریں۔",
+    "call_us": "ہمیں بلائیں"
+  }
+}

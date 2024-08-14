@@ -1,0 +1,152 @@
+/* Animation for button shake */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.button-3:hover .fa-angles-left,
+.button-3:hover .fa-angles-right {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+}
+
+.container1-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  width: 25rem; 
+  height: auto; 
+  margin: 1rem;
+  position: relative;
+  border-radius: 10px; /* لجعل حواف الكارت دائرية */
+  overflow: hidden; /* لضمان أن الصورة والمحتوى داخل الكارت لا يتجاوز الحدود الدائرية */
+}
+
+.card1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0; /* لجعل حواف الصور داخل الكروت دائرية فقط في الجزء العلوي */
+  position: relative; /* إضافة خاصة position */
+}
+
+.card1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #F5C139;
+  position: absolute;
+  top: 50%; /* أعلى محتوى الكارت */
+  left: 0;
+  margin-top: 25px;
+}
+
+@media(max-width:992px){
+  .card1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #F5C139;
+    position: absolute;
+    top: 55%; /* أعلى محتوى الكارت */
+    left: 0;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card1 {
+    width: 100%;
+    height: auto;
+  }
+  .card1-body {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 30px;
+  }
+  .services-description {
+    font-size: 14px;
+  }
+  .card1 {
+    width: 100%;
+    height: auto;
+  }
+  .container1-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-dialog {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.button-3 {
+  appearance: none;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 10px 20px; /* ضبط الحافة الداخلية للزر */
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto; /* عرض تلقائي */
+  height: 40px; /* ضبط ارتفاع الزر */
+  background-color: #F5C139; /* لون الخلفية للزر */
+  color: #13233C; /* لون النص */
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+/* Add margin for icon when direction is RTL */
+.me-2 {
+  margin-left: 8px;
+}
+
+.card1-body {
+  padding: 16px; /* إضافة حافة داخلية للكارت */
+}
+
+.card1-body .button-3 {
+  margin-top: 16px; /* إضافة مسافة أعلى الزر لضمان تناسق المسافات */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1-text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: block; /* تغيير من inline إلى block للسماح بالانتقال بين الأسطر */
+  white-space: normal; /* السماح بالنص للانتقال إلى السطر التالي */
+  word-wrap: break-word; /* اجبار النص على الانتقال للسطر التالي بعد تجاوز عدد الكلمات المحدد */
+}

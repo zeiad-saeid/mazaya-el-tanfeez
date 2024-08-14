@@ -1,0 +1,136 @@
+// .footer-container {
+//   text-align: end;
+//   width: 100%;
+// }
+
+// .footer-title {
+//   margin: 0;
+//   display: inline-block;
+//   width: 100%; /* Ensure the title takes up the full width */
+//   text-align: center; /* Center align the title */
+// }
+
+// .fo {
+//   font-size: 1rem;
+// }
+
+// .border-bottom {
+//   border: 1px solid #fff;
+// }
+
+// .footer p {
+//   margin: 0;
+// }
+
+
+
+
+
+.app__footer {
+  color: var(--white-color);
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--primary-color);
+  h2 {
+    margin-bottom: 1rem;
+  }
+  @media screen and (max-width:900px) {
+    flex-direction: column;
+  }
+}
+.app__footer-contact {
+  width: 33%;
+  margin-bottom: 1rem;
+  .app__footer-contact-icons {
+    svg {
+      width: 30px;
+      height: 30px;
+      color: var(--white-color);
+      margin: 0.5rem;
+      transition: all 0.3s ease;
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+  }
+  @media screen and (max-width:900px) {
+    width: 100%;
+  }
+}
+.app__footer-contact-phone {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: var(--white-color);
+    transition: all 0.3s ease;
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+}
+.app__footer-contact-mail {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--white-color);
+    transition: all 0.3s ease;
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+}
+.app__footer-sitemap {
+  width: 33%;
+  margin-bottom: 1rem;
+
+  .app__footer-item {
+    margin: 1rem 0;
+
+    a {
+      font-size: 17px;
+      text-decoration: none;
+      color: var(--white-color);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+  }
+
+  .app__navbar-blog {
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+
+  @media screen and (max-width:900px) {
+    width: 100%;
+  }
+}
+
+.app__footer-about {
+  width: 33%;
+  @media screen and (max-width:900px) {
+    width: 100%;
+  }
+}

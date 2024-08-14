@@ -1,0 +1,222 @@
+// .carousel {
+//   margin: 2rem 4rem;
+//   overflow: hidden;
+//   cursor: grab;
+//   @media screen and (max-width: 700px) {
+//     margin: 2rem 2rem;
+//   }
+//   @media screen and (max-width: 400px) {
+//     margin: 2rem 0rem;
+//   }
+// }
+// .inner-carousel {
+//   display: flex;
+// }
+// .item {
+//   position: relative;
+//   min-height: 35rem;
+//   min-width: 25rem;
+//   border-radius: 2rem;
+//   padding: 1rem;
+
+//   img {
+//     width: 100%;
+//     height: 100%;
+//     border-radius: 1rem;
+//     pointer-events: none;
+//     &:hover {
+//       transform: scale(1.2);
+//     }
+//   }
+//   .item-content {
+//     position: absolute;
+//     text-align: center;
+//     color: var(--white-color);
+//     display: flex;
+//     flex-direction: column;
+//     padding: 2rem 1.5rem;
+//     background-color: #13233b5d;
+//     border-radius: 1rem;
+//     width: 92%;
+//     height: 60%;
+//     h2 {
+//       font-weight: 700;
+//       font-size: 38px;
+//       line-height: 43px;
+//     }
+//     p {
+//       margin-top: 1rem;
+//       font-weight: 500;
+//       font-size: 18px;
+//       line-height: 31px;
+//     }
+//   }
+//   @media screen and (max-width: 700px) {
+//     min-height: 34rem;
+//     min-width: 18rem;
+//     .item-content {
+//       width: 89%;
+//       h2 {
+//         font-size: 30px;
+//         line-height: 42px;
+//       }
+//       p {
+//         font-weight: 500;
+//         font-size: 18px;
+//         line-height: 22px;
+//       }
+//     }
+//   }
+//   @media screen and (max-width: 400px) {
+//     min-height: 34rem;
+
+//     min-width: 14rem;
+//     .item-content {
+//       padding: 1rem 1rem;
+//       width: 86%;
+//       height: 92%;
+//       h2 {
+//         font-size: 26px;
+//         line-height: 32px;
+//       }
+//       p {
+//         font-size: 15px;
+//         line-height: 22px;
+//       }
+//     }
+//   }
+// }
+
+// .slider-container.newclientscards {
+//   // position: relative;
+//   width: 100%;
+//   // max-width: 1400px;
+//   // width: 100vw;
+//   height: 350px;
+//   margin: 30px auto;
+//   overflow: hidden;
+
+//   // @media screen and (max-width: 900px) {
+//   //   height: 75vh;
+//   // }
+
+//   .slick-prev {
+//     left: 3% !important;
+//     z-index: 1;
+//     &::before {
+//       content: "";
+//     }
+//   }
+//   .slick-next {
+//     right: 3% !important;
+//     z-index: 1;
+//     &::before {
+//       content: "";
+//     }
+//   }
+//   .item {
+//     margin: 0 10px;
+//     padding: 20px;
+//     width: 200px;
+//     height: 400px;
+//     // background-color: var(--secondary-color);
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     .item-content {
+//       background-color: var(--primary-color);
+//       height: 200px;
+//       h2 {
+//       }
+//       p {
+//       }
+//     }
+//     .item-image {
+//       width: 100px;
+//       height: 100px;
+//       img {
+//         width: 90%;
+//         height: 90%;
+//         object-fit: cover;
+//       }
+//     }
+//   }
+// }
+
+
+// .section__title.teamssection {
+//   background-color: var(--lightgray-color);
+// }
+
+.swiper-slide {
+  font-size: 18px;
+  background-color: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .newclientscard-image {
+    width: 250px;
+    height: 350px;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+}
+.swiper {
+  // background-color: var(--lightgray-color);
+  width: 100%;
+  height: 400px;
+  padding: 60px 0;
+}
+.swiper-button-prev,
+.swiper-button-next{
+  color:#000;
+}
+// .swiper-button-prev,
+// .swiper-button-next {
+//   position: absolute;
+// }
+// .swiper-button-prev {
+//   top: 200px;
+//   left: 200px;
+// }
+// .swiper-button-next {
+// }
+.profile-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 270px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profile-info {
+  border-top: 5px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 0;
+}
+
+.profile-info h2 {
+  font-size: 1.5em;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 1em;
+  color: #ccc;
+  height: 20px;
+}

@@ -1,0 +1,23 @@
+.footer-container {
+  text-align: end;
+  width: 100%;
+}
+
+.footer-title {
+  margin: 0;
+  display: inline-block;
+  width: 100%; /* Ensure the title takes up the full width */
+  text-align: center; /* Center align the title */
+}
+
+.fo {
+  font-size: 1rem;
+}
+
+.border-bottom {
+  border: 1px solid #fff;
+}
+
+.footer p {
+  margin: 0;
+}

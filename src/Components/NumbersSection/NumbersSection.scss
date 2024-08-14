@@ -1,0 +1,78 @@
+.numbersection {
+  position: relative;
+  .numbersection-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    z-index: 1;
+  }
+
+  
+  
+  padding: 30px 0;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/loaders.jpeg");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .nums {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    .num {
+      // border-right: 1px solid #fff;
+      // padding-right: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: var(--white-color);
+      h4 {
+        font-size: 56px;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 70px;
+      height: 2px;
+      background-color: #fff;
+      right: -39px;
+      top: 54px;
+      transform: rotate(90deg);
+      
+    }
+    @media screen and (max-width: 900px) {
+      &::before {
+        content: none;
+      }
+    }
+    @media screen and (max-width: 900px) {
+      width: 40%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+.nums.lastnums {
+  &::before {
+    content: none;
+  }
+}

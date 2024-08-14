@@ -1,0 +1,109 @@
+/* Container for the background section */
+.background-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-top: 0;
+  max-height: 250px; /* Max height to fit the page */
+}
+
+/* Background image styling */
+.background-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/262347/pexels-photo-262347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.4);
+  z-index: 0;
+}
+
+/* Content container styling */
+.contents {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* Row styling */
+.row0 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px; /* Space between grid items */
+}
+
+/* Separator styling */
+.separator0 {
+  border-right: 2px solid white;
+  padding: 0 20px; /* Horizontal padding inside items */
+}
+
+/* Remove border for the last item */
+.separator0:last-child {
+  border-right: none;
+}
+
+/* Grid container styling */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 30px; /* Space between columns */
+}
+
+/* Responsive design for medium screens */
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  }
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 1 column */
+  }
+}
+
+/* Text styling */
+.fs-2 {
+  font-size: 2rem;
+}
+
+.fs-4 {
+  font-size: 1.25rem;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
+  font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  .row0 {
+    grid-template-columns: 1fr;
+  }
+
+  .separator0 {
+    border-right: none;
+    border-bottom: 2px solid white;
+  }
+
+  .separator0:last-child {
+    border-bottom: none;
+  }
+}

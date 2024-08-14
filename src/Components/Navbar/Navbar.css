@@ -1,0 +1,202 @@
+/* تنسيق navbar عند الانتقال للأعلى */
+.nav1 {
+  height: 7vh;
+  padding: 40px;
+  width: 100%;
+  background-color: #13233C;
+  z-index: 1050;
+  transition: background-color 0.3s;
+  padding-left: 20px; /* إضافة padding من اليسار */
+  padding-right: 20px; /* إضافة padding من اليمين */
+}
+
+/* إخفاء nav1 على الشاشات الصغيرة والمتوسطة */
+@media (max-width: 991.98px) {
+  .nav1 {
+    display: none;
+    
+  }
+}
+
+/* navbar عند الانتقال للأسفل */
+.nav2 {
+  height: 10vh;
+  z-index: 1050;
+  width: 100%;
+  padding: 1.5rem 2rem; /* تعديل الحواف هنا */
+  background-color: white;
+  position: sticky;
+  top: 0;
+  transition: background-color 0.3s;
+  padding-left: 20px; /* إضافة padding من اليسار */
+  padding-right: 20px; /* إضافة padding من اليمين */
+}
+
+/* logo */
+.logo img {
+  height: 25px;
+}
+
+/* روابط navbar */
+.nav-link {
+  color: #13233C !important;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+/* تنسيق روابط navbar عند الوقوف عليها */
+.nav-link:hover {
+  color: #FFC107 !important;
+}
+
+/* تنسيق navbar عند تغيير الحجم للون الأبيض */
+.expanded {
+  background-color: white !important;
+  width: 73vh;
+}
+
+/* تنسيق روابط navbar عند الانتقال للون الأبيض */
+.expanded .nav-link {
+  height: auto;
+  text-align: end;
+  padding: 10px;
+  margin: 0;
+  color: #13233C !important;
+  background-color: white !important;
+  display: block;
+}
+
+/* تنسيق أيقونات navbar عند الانتقال للون */
+.expanded .fa-solid {
+  background-color: white !important;
+  border-color: transparent;
+  box-shadow: transparent;
+}
+
+/* تعديل CSS للتأكد من أن القائمة تنغلق بشكل صحيح عند النقر على رابط */
+.navbar-collapse {
+  transition: height 0.3s;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.collapse.show {
+  display: block !important;
+  background-color: white !important;
+  text-align: end;
+  width: 69vh;
+}
+
+/* تنسيق الروابط في وضع expanded */
+.nav2.expanded .navbar-nav {
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.nav2.expanded .nav-item {
+  width: 100%;
+  text-align: right;
+}
+
+/* وسائل الإعلام لتنسيق صغير ومتوسط */
+@media (max-width: 767.98px) {
+  /* المحتوى المنقول من nav1 لتعذيته في nav2 */
+  .navbar-text-content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .navbar-text-content .nav1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* لجعل أيقونات التليفون والإيميل تتحرك إلى اليسار */
+    background-color: white;
+    margin-bottom: 10px;
+  }
+
+  .navbar-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .navbar-icons .nav-link {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    
+  }
+
+  .nav-link i.fa-solid,
+  .nav-link i.fa-brands {
+    font-size: 1rem;
+    
+  }
+
+  .dropdown-menu {
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .dropdown-item img {
+    margin-right: 8px;
+  }
+}
+.dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #fff; /* تغيير لون الأيقونة إذا لزم الأمر */
+}
+
+/* Adjust padding and margins for Dropdown Toggle */
+.dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #fff; /* Change icon color if needed */
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-toggle img {
+  margin-right: 8px;
+}
+
+.dropdown-toggle::after {
+  display: none; /* Hide the default arrow */
+}
+
+/* Custom arrow for dropdown */
+.dropdown-toggle::before {
+
+  font-size: 0.6em;
+  margin-left: 8px;
+  color: #fff; /* Change arrow color if needed */
+  vertical-align: middle; /* Aligns the arrow vertically with the image */
+  line-height: 1; /* Ensures no extra space above or below the arrow */
+}
+
+html[dir="rtl"] .dropdown-toggle img {
+  margin-left: 14px;
+  margin-right: 50px;
+}
+
+html[dir="rtl"] .dropdown-toggle::before {
+  margin-left: 0;
+  margin-right: 8px;
+}

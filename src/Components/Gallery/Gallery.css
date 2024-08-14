@@ -1,0 +1,135 @@
+/*  قسم الخدمات */
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*  صورة الخدمات */
+.services .images {
+  max-width: 85%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*  جسم الصفحة */
+
+/*  الكروت */
+.card {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* نسبة العرض إلى الارتفاع 4:3 */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+
+/*  صور الكروت */
+.card-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*  الصورة داخل الكارت */
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+/*  hover على الصورة */
+.card-image:hover img {
+  transform: scale(1.1);
+}
+
+/* تنسيق hover على الصورة */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(233, 145, 14, 0.5); /* تغيير لون hover إلى الأصفر الشفاف */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* تأثير الظل */
+.card-image:hover .overlay {
+  opacity: 1;
+}
+
+/*  الأيقونة */
+.icon {
+  font-size: 50px;
+  color: black;
+}
+
+/* تحسين عرض Carousel على الشاشات الصغيرة والمتوسطة */
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* لتحديد الحد الأقصى لارتفاع الصورة */
+  object-fit: cover;
+}
+
+/* تنسيق على الشاشات الصغيرة */
+@media (max-width: 992px) {
+  .card {
+    width: 100%;
+    padding-bottom: 56.25%; /* نسبة العرض إلى الارتفاع 16:9 */
+  }
+  .card-image img {
+    height: auto;
+  }
+
+  .carousel .slide img {
+    max-height: 300px; /* تقليل الحد الأقصى لارتفاع الصورة للشاشات الصغيرة */
+  }
+}
+
+/* تنسيق على الشاشات الأصغر */
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 20px;
+  }
+
+  .services-description {
+    font-size: 14px;
+  }
+
+  .card {
+    width: 100%;
+    padding-bottom: 75%; /* نسبة العرض إلى الارتفاع 4:3 */
+  }
+
+  .card-image img {
+    height: auto;
+  }
+
+  .carousel .slide img {
+    max-height: 200px; /* تقليل الحد الأقصى لارتفاع الصورة للشاشات الأصغر */
+  }
+
+  .modal-dialog {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.gallery-container1 {
+  display: flex;
+  justify-content: center;
+}
+
