@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "company": "Company",
+    "company_name": "Mazyar Execution",
+    "subtitle": "Your path to building your dreams starts with us",
+    "about_us": "About Us"
+  },
+  "navbar": {
+    "contact_us": "Contact Us",
+    "company_projects": "Company Projects",
+    "services": "Services",
+    "gallery": "Gallery",
+    "about_us": "About Us",
+    "home": "Home"
+  },
+  "services": {
+    "title": "Services",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "import_export": "Import and Export",
+    "renovations": "Renovations",
+    "super_deluxe_finish": "Super Deluxe Finish",
+    "turnkey": "Turnkey",
+    "real_estate_construction": "Real Estate Construction",
+    "finishes": "Finishes",
+    "learn_more": "Learn More"
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Meet our dedicated team members.",
+    "member1": {
+      "name": "",
+      "title": ""
+    },
+    "member2": {
+      "name": "",
+      "title": ""
+    },
+    "member3": {
+      "name": "",
+      "title": ""
+    },
+    "member4": {
+      "name": "",
+      "title": ""
+    },
+    "member5": {
+      "name": "",
+      "title": ""
+    },
+    "member6": {
+      "name": " ",
+      "title": " "
+    },
+    "member7": {
+      "name": " ",
+      "title": "  "
+    },
+    "member8": {
+      "name": " ",
+      "title": " "
+    }
+  },
+
+  "serves": {
+    "title": "Photo Gallery",
+    "description": "A gallery of our attractive services and works"
+  },
+  "numbers": {
+    "employees": "Employees",
+    "completed_projects": "Completed Projects",
+    "satisfied_clients": "Satisfied Clients",
+    "achievements": "Achievements"
+  },
+  "recent_posts": {
+    "title": "Company Projects",
+    "description": "Some quick scripts to build the card title and configure most of the card content.",
+    "learn_more": "Learn More"
+  },
+  "partner": {
+    "title": "Our Partners",
+    "description": "Our distinguished partners"
+  },
+  "footer_1": {
+    "title_1": "times of work",
+    "title_2": "phone number",
+    "title_3": " address"
+  },
+  "contact": {
+    "contact_us": "Contact Us",
+    "contact_us_description": "Send Us a Message",
+    "visit_branch": "Visit Us at the Branch",
+    "contact_form": "Contact Us via the Following Form",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "your_message": "Your Message",
+    "send": "Send"
+  },
+  "moreserves": {
+    "learn_more": "Learn More About Our Services",
+    "super_deluxe": "Super Deluxe Finishing",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas officia impedit et illum repellat sint, dolorum perspiciatis, velit minus ratione porro ipsum sunt quos consectetur perferendis provident eius reiciendis?"
+  },
+  "floatingFormButton": {
+    "send_message": "Send Message",
+    "contact_form": "Contact Form",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "close": "Close"
+  },
+
+  "about": {
+    "who_we_are": "Who We Are",
+    "mission": "Mission",
+    "vision": "Vision"
+  },
+  "button_states": {
+    "read_more": "Read More",
+    "contact_us": "Contact Us",
+    "call_us": "Call Us"
+  },
+  "footer": {
+    "contact_information": "Contact Information",
+    "important_links": "Important Links",
+    "copyrights": "Copyright 2024. All rights reserved."
+  },
+  "new_hero": {
+    "title1": "Al-Tameer and Housing Company",
+    "title2": "Various Real Estate Services",
+    "description1": "We provide great and attractive services that meet market needs",
+    "description2": "Our company offers a variety of unique and distinctive real estate services"
+  },
+  "services_section": {
+    "title": "Services",
+    "short_description": "What we offer you in these great and convenient services"
+  },
+  "portfolio_section": {
+    "title": "Portfolio",
+    "short_description": "Our strong work that proves our presence in the market"
+  },
+  "qanda_section": {
+    "title": "Frequently Asked Questions",
+    "short_description": "Some of the most important questions and inquiries that might come to your mind"
+  },
+  "teams_section": {
+    "title": "Company Team",
+    "short_description": "The distinguished company team"
+  }
+}

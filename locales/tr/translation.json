@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "company": "Şirket",
+    "company_name": "Mazyar Yürütme",
+    "subtitle": "Hayallerinizi inşa etme yolunuz bizimle başlar",
+    "about_us": "Hakkımızda"
+  },
+  "navbar": {
+    "contact_us": "Bize Ulaşın",
+    "company_projects": "Şirket Projeleri",
+    "services": "Hizmetler",
+    "gallery": "Galeri",
+    "about_us": "Hakkımızda",
+    "home": "Ana Sayfa"
+  },
+  "services": {
+    "title": "Hizmetler",
+    "description": "Kart başlığını oluşturmak ve kartın içeriğinin çoğunu oluşturmak için bazı hızlı örnek metinler.",
+    "import_export": "İthalat ve İhracat",
+    "renovations": "Renovasyonlar",
+    "super_deluxe_finish": "Süper Lüks Bitiş",
+    "turnkey": "Anahtar Teslim",
+    "real_estate_construction": "Gayrimenkul İnşaatı",
+    "finishes": "Bitişler",
+    "learn_more": "Daha Fazla Bilgi"
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "description": "Sadık ekibimizle tanışın.",
+    "member1": {
+      "name": "",
+      "title": ""
+    },
+    "member2": {
+      "name": "",
+      "title": ""
+    },
+    "member3": {
+      "name": "",
+      "title": ""
+    },
+    "member4": {
+      "name": "",
+      "title": ""
+    },
+    "member5": {
+      "name": "",
+      "title": ""
+    },
+    "member6": {
+      "name": " ",
+      "title": " "
+    },
+    "member7": {
+      "name": " ",
+      "title": "  "
+    },
+    "member8": {
+      "name": " ",
+      "title": " "
+    }
+  },
+  "serves": {
+    "title": "Fotoğraf Galerisi",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt libero voluptate."
+  },
+  "numbers": {
+    "employees": "Çalışanlar",
+    "completed_projects": "Tamamlanan Projeler",
+    "satisfied_clients": "Memnun Müşteriler",
+    "achievements": "Başarılar"
+  },
+  "recent_posts": {
+    "title": "En Son Gönderiler",
+    "description": "Kart başlığını oluşturmak ve kartın içeriğinin çoğunu yapılandırmak için bazı hızlı betikler.",
+    "learn_more": "Daha Fazla Bilgi"
+  },
+  "partner": {
+    "title": "Ortaklarımız",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt libero voluptate."
+  },
+  "footer_1": {
+    "title_1": "Çalışma Zamanı",
+    "title_2": "Telefon Numarası",
+    "title_3": "Adres"
+  },
+  "footer": {
+    "quick_links": "Hızlı Bağlantılar",
+    "home": "Ana Sayfa",
+    "terms_conditions": "Koşullar ve Şartlar",
+    "privacy_policy": "Gizlilik Politikası",
+    "popular_news": "Popüler Haberler",
+    "latest_news": "En Son Haberler",
+    "about_us": "Hakkımızda"
+  },
+  "contact": {
+    "contact_us": "Bize Ulaşın",
+    "visit_branch": "Şubemize Uğrayın:",
+    "contact_form": "Aşağıdaki Form Aracılığıyla Bize Ulaşın:",
+    "name": "Ad:",
+    "email": "E-posta:",
+    "phone": "Telefon:",
+    "your_message": "Mesajınız",
+    "send": "Gönder"
+  },
+  "moreserves": {
+    "learn_more": "Hizmetlerimiz Hakkında Daha Fazla Bilgi Edinin",
+    "super_deluxe": "Süper Lüks Bitiş",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas officia impedit et illum repellat sint, dolorum perspiciatis, velit minus ratione porro ipsum sunt quos consectetur perferendis provident eius reiciendis?"
+  },
+  "floatingFormButton": {
+    "send_message": "Mesaj Gönder",
+    "contact_form": "İletişim Formu",
+    "name": "Ad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "send": "Gönder",
+    "close": "Kapat"
+  },
+  "about": {
+    "who_we_are": "Biz Kimiz",
+    "mission": "Misyon",
+    "vision": "İlk varış noktası"
+  },
+  "button_states": {
+    "read_more": "Read More",
+    "contact_us": "Contact Us",
+    "call_us": "Call Us"
+  }
+}

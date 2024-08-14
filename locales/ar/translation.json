@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "company": "شركة",
+    "company_name": "مزايا التنفيذ",
+    "subtitle": "طريقك لبناء أحلامك يبدأ معنا",
+    "about_us": "من نحن"
+  },
+  "navbar": {
+    "contact_us": "تواصل معنا",
+    "company_projects": "مشاريع الشركة",
+    "services": "الخدمات",
+    "gallery": "معرض الصور",
+    "about_us": "من نحن",
+    "home": "الرئيسية"
+  },
+  "services": {
+    "title": "الخدمات",
+    "description": "بعض النصوص المثالية للبناء على عنوان البطاقة وجعل محتوى البطاقة.",
+    "import_export": "الاستيراد والتصدير",
+    "renovations": "ترميمات",
+    "super_deluxe_finish": "تشطيب سوبر لوكس",
+    "turnkey": "تسليم مفتاح",
+    "real_estate_construction": "بناء عقارات",
+    "finishes": "تشطيبات",
+    "learn_more": "تعرف على المزيد"
+  },
+  "team": {
+    "title": "فريقنا",
+    "description": "تعرف على أعضاء فريقنا المخصصين.",
+    "member1": {
+      "name": "سطام عادل",
+      "title": "المدير التنفيذي"
+    },
+    "member2": {
+      "name": "محمد علي",
+      "title": "مدير المشاريع"
+    },
+    "member3": {
+      "name": "أحمد حسن",
+      "title": "مدير التسويق"
+    },
+    "member4": {
+      "name": "علي عبد الله",
+      "title": "مدير المبيعات"
+    },
+    "member5": {
+      "name": "خالد محمود",
+      "title": "مدير الموارد البشرية"
+    },
+    "member6": {
+      "name": "عمرو إبراهيم",
+      "title": "مدير التقنية"
+    },
+    "member7": {
+      "name": "ياسر سعيد",
+      "title": "مدير العلاقات العامة"
+    },
+    "member8": {
+      "name": "محمود طه",
+      "title": "مدير الإنتاج"
+    }
+  },
+  "numbers": {
+    "employees": "الموظفين",
+    "completed_projects": "مشاريع تم تسليمها",
+    "satisfied_clients": "عملاء راضون عن الخدمة",
+    "achievements": "إنجاز"
+  },
+  "serves": {
+    "title": "معرض الصور",
+    "description": "معرض صور خدماتنا واعمالنا الجذابة"
+  },
+  "recent_posts": {
+    "title": "مشاريع الشركة",
+    "description": "بعض النصوص السريعة لبناء عنوان البطاقة وتكوين معظم محتوى البطاقة.",
+    "learn_more": "تعرف على المزيد"
+  },
+  "partner": {
+    "title": "شركاؤنا",
+    "description": "شركاؤنا المميزين"
+  },
+  "footer_1": {
+    "title_1": "مواعيد العمل",
+    "title_2": "رقم الهاتف",
+    "title_3": "العنوان"
+  },
+  "contact": {
+    "contact_us": "تواصل معنا",
+    "contact_us_description": "ارسل لنا رسالة",
+    "visit_branch": " زورونا فى الفرع",
+    "contact_form": " تواصل معنا عبر النموذج التالي",
+    "name": " الاسم",
+    "email": " البريد الالكتروني",
+    "phone": " رقم الهاتف",
+    "your_message": "الرسالة الخاصة بك",
+    "send": "ارسال"
+  },
+  "moreserves": {
+    "learn_more": "لمعرفة المزيد عن الخدمات",
+    "super_deluxe": "تشطيب سوبر لوكس",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quas officia impedit et illum repellat sint, dolorum perspiciatis, velit minus ratione porro ipsum sunt quos consectetur perferendis provident eius reiciendis?"
+  },
+  "floatingFormButton": {
+    "send_message": "ارسال رسالة",
+    "contact_form": "استمارة الاتصال",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "message": "الرسالة",
+    "send": "إرسال",
+    "close": "اغلاق"
+  },
+
+  "about": {
+    "who_we_are": "من نحن",
+    "mission": "المهام",
+    "vision": "الرؤيا"
+  },
+  "button_states": {
+    "read_more": "اعرف المزيد",
+    "contact_us": "تواصل معنا",
+    "call_us": "اتصل بنا"
+  },
+  "footer": {
+    "contact_information": "معلومات التواصل",
+    "important_links": "روابط هامة",
+    "copyrights": "حقوق الطبع و النشر 2024 .جميع الحقوق محفوظة"
+  },
+  "new_hero": {
+    "title1": "شركة مزايا التنفيذ",
+    "title2": "خدمات عقارية متنوعة",
+    "description1": "نوفر خدمات رائعة وجذابة تلبي احتياجات السوق",
+    "description2": "نوفر في شركتنا خدمات عقارية متنوعة ومميزة وفريدة من نوعها"
+  },
+  "services_section": {
+    "title": "الخدمات",
+    "short_description": "ماذا نقدم لك في هذه الخدمات الرائعة المريحة"
+  },
+  "portfolio_section": {
+    "title": "معرض الأعمال",
+    "short_description": "اعمالنا القوية التي تثبت وجودنا في السوق"
+  },
+  "qanda_section": {
+    "title": "اهم الأسئلة الشائعة",
+    "short_description": "من اهم الأسئلة والإستفسارات اللي ممكن تخطر على بالك"
+  },
+  "teams_section": {
+    "title": "فريق الشركة",
+    "short_description": "فريق الشركو المتميز"
+  }
+  
+}
